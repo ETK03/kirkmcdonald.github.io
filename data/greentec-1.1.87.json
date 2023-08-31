@@ -81,6 +81,19 @@
             "module_slots": 3,
             "name": "chemical-plant"
         },
+        "organic-farm": {
+            "allowed_effects": [ "consumption", "speed", "productivity", "pollution" ],
+            "crafting_categories": [ "greenhouse" ],
+            "crafting_speed": 1,
+            "energy_usage": 120000,
+            "icon_col": 14,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Greenhouse"
+            },
+            "module_slots": 4,
+            "name": "organic-farm"
+        },
         "oil-refinery": {
             "allowed_effects": [ "consumption", "speed", "productivity", "pollution" ],
             "crafting_categories": [ "oil-processing" ],
